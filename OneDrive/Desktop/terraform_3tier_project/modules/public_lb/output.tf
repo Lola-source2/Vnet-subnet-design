@@ -1,4 +1,4 @@
-
+# modules/public_LB/output.tf
 output "load_balancer_id" {
   value = azurerm_lb.public_lb.id
 }

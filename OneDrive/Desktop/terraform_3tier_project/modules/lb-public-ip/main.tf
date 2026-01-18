@@ -1,4 +1,4 @@
-
+# modules/lb-public-ip/main.tf
 resource "azurerm_public_ip" "lb_public_ip" {
   name                = var.public_ip_lb[0].name
   location            = var.location

@@ -1,4 +1,4 @@
-
+# modules/internal_LB/variables.tf
 variable "internal_lb_name" {
   type    = string
   default = "internal-lb-001"

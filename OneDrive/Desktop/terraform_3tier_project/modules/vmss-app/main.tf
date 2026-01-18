@@ -1,4 +1,4 @@
-
+# modules/vmss-app/main.tf
 
 resource "azurerm_linux_virtual_machine_scale_set" "vmss_app" {
   name                = var.vmss_app_name

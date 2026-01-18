@@ -1,3 +1,4 @@
+# modules/keyvault/output.tf
 output "key_vault_id" {
   value     = azurerm_key_vault.key_vault.id
   sensitive = true

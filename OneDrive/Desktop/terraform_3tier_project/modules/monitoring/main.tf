@@ -1,5 +1,5 @@
 
-
+# modules/monitoring/main.tf
 
 resource "azurerm_monitor_diagnostic_setting" "monitor_diagnostic" {
   name = var.monitor_diagnostic_setting[0].name

@@ -1,4 +1,4 @@
-
+# modules/log_analytic_workspace/main.tf
 
 resource "azurerm_log_analytics_workspace" "log_analytics_workspace" {
   name                = var.log_analytics_workspace[0].name

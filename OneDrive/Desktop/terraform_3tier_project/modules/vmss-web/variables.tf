@@ -1,4 +1,4 @@
-
+# modules/vmss-web/variables.tf
 variable "vmss_web_name" {
   type    = string
   default = "vmss-web-001"

@@ -1,4 +1,4 @@
-
+# modules/network/variables.tf
 
 variable "resource_group_name" {
   type    = string

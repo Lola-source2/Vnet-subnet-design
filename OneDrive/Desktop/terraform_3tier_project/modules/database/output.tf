@@ -1,4 +1,4 @@
-
+# modules/database/output.tf
 output "db_name" {
   value = azurerm_mssql_server.sql_server.name
 }

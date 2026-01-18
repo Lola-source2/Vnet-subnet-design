@@ -1,4 +1,4 @@
-
+# modules/log_analytic_workspace/variables.tf
 variable "log_analytics_workspace" {
   type = list(object({
     name              = string

@@ -1,4 +1,4 @@
-
+# modules/internal_LB/main.tf
 resource "azurerm_lb" "internal_lb" {
   name                = var.internal_lb_name
   location            = var.location

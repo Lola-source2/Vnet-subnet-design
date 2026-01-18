@@ -1,4 +1,4 @@
-
+# modules/bastion_public_ip/variables.tf
 
 variable "public_ip_bastion" {
   type = list(object({
@@ -12,6 +12,7 @@ variable "public_ip_bastion" {
     allocation_method = "Static"
   }]
 }
+
 
 variable "resource_group_name" {
   type    = string

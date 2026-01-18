@@ -1,4 +1,4 @@
-
+# modules/public_LB/main.tf
 resource "azurerm_lb" "public_lb" {
   name                = var.lb_name
   location            = var.location

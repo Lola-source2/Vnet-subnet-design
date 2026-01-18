@@ -1,4 +1,4 @@
-
+# modules/vmss-web/main.tf
 resource "azurerm_linux_virtual_machine_scale_set" "vmss_web" {
   name                = var.vmss_web_name
   location            = var.location

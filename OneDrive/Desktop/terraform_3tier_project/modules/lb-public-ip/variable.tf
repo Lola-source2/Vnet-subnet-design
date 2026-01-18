@@ -1,4 +1,4 @@
-
+# modules/lb-public-ip/variables.tf
 variable "public_ip_lb" {
   type = list(object({
     name              = string

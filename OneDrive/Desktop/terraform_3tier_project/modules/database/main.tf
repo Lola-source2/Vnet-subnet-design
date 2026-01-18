@@ -1,3 +1,4 @@
+# modules/database/main.tf
 
 resource "azurerm_mssql_server" "sql_server" {
   name                         = var.db_server_name

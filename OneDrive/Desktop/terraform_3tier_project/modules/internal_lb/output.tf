@@ -1,4 +1,4 @@
-
+# modules/internal_LB/output.tf
 output "load_balancer_id" {
   value = azurerm_lb.internal_lb.id
 }

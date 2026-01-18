@@ -1,4 +1,4 @@
-
+# modules/vmss-app/variables.tf
 variable "vmss_app_name" {
   type    = string
   default = "vmss-app-001"

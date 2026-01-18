@@ -1,4 +1,4 @@
-
+# modules/public_LB/variables.tf
 variable "lb_name" {
   type    = string
   default = "lb-prod-001"

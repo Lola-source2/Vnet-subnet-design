@@ -1,3 +1,4 @@
+# modules/network/main.tf
 
 resource "azurerm_virtual_network" "vnet" {
   name                = var.vnet_name
